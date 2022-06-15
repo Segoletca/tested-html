@@ -1,65 +1,109 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Data</title>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" 
-    href="https://cdn-icons-png.flaticon.com/512/4341/4341050.png"/>
-    <style></style>
-  </head>
-  <body>
-    <h1>Заголовок H1</h1>
-    <p id="Так_задают_уникальный_адрес_строки"> 
-    Текст внутри тега p <br> с переносом строки</p>
-    <p><b>Жирный текст</b></p>
-    <p><em>Текст курсивом</em><br>
-    Да <br>
-    ывадлываодлывао
-    ваыывдлаоывдлоавы 
-    </p>
-    <a href="https://www.youtube.com/watch?v=4jYYHaTwWvY" target="_blank">HTML за 35 минут</a>
-    <br>
-    <a href="#Так_задают_уникальный_адрес_строки" target="_blank">Тег p</a>
-    
-    <ul>
-    <li>Первый элемент</li>
-    <li>Второй элемент</li>
-    <li>Третий элемент</li>
-    </ul>
-    <hr>
-<!--     Данный тег используется для создание горизонтальной линии -->
-    <table border="2">
-        <thead>
-            <tr>
-                <th>Наименование фрукта</th>
-                <th>Кол-во</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Яблоко <img src="https://github.com/Segoletca/tested-html/blob/main/MVtMjDS9QtI.jpg" width="100"></td>
-                <td>2</td>
-            <tr>
-                <td>Апельсин</td>
-                <td>3</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="2">Итог: 5</td>
-            </tr>
-        </tfoot>
-    </table>
-    <hr>
-    <img src="https://github.com/Segoletca/tested-html/blob/main/MVtMjDS9QtI.jpg" width="300">
-    <br>
-    <input type="number">
-    <hr>
-    <form class="" action="inbox.txt" method="post">
-        <input type="text">
-        <input type="submit" name="" value="Отправить">
-    </form>
-    <hr>
+    <head>
+        <title>Data</title>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" 
+        href="https://cdn-icons-png.flaticon.com/512/4341/4341050.png"/>
+        <style></style>
+        <link href="style.css" rel="stylesheet" type="text/css"/> <!-- Строчка для подключения CSS файлов -->
+        <!-- <script type="text/javascript"></script> Строчка для подключения JavaScript -->
+        <script type="text/javascript" src="script.js"></script> <!-- Строчка для подключения JS файлов -->
+    </head>
+    <body>
+        <h1>Заголовок H1</h1>
+        <iframe src="https://www.youtube.com/watch?v=TOjPO1XmcnM" width="1025px" height="700px">"Бакасана - развитие чувства баланса"</iframe>
+        <p id="Так_задают_уникальный_адрес_строки"> 
+        Текст внутри тега p <br> с переносом строки</p>
+        <p><b>Жирный текст</b></p>
+        <p><em>Текст курсивом</em><br>
+        Да <br>
+        ывадлываодлывао
+        ваыывдлаоывдлоавы 
+        </p>
+        <a href="https://www.youtube.com/watch?v=4jYYHaTwWvY" target="_blank">HTML за 35 минут</a>
+        <br>
+        <a href="#Так_задают_уникальный_адрес_строки" target="_blank">Тег p</a>
+        
+        <ul><!-- Список без перечисления -->
+        <li>Первый элемент</li>
+        <li>Второй элемент</li>
+        <li>Третий элемент</li>
+        </ul>
+        <hr><!--     Данный тег используется для создание горизонтальной линии -->
+        <table id="test_table" border="2">
+            <thead>
+                <tr>
+                    <th>Наименование фрукта</th>
+                    <th>Кол-во</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Яблоко <img src="MVtMjDS9QtI.jpg" width="100"></td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Апельсин</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Итог: 5</td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr>
+        <img src="MVtMjDS9QtI.jpg" width="300">
+        <br>
+        <input type="number">
+        <a href="https://www.youtube.com" target="_blank">Мир!</a>
+        <hr>
+        <p pad>Привет, <strong>мир!</strong></p>
+        <p>Привет, <em>Мир!</em></p>
+        <p >Привет, <small>Мир!</small></p>
+        <hr>
+        <form class="" action="inbox.txt" method="post">
+            <input type="text">
+            <input type="submit" name="" value="Отправить">
+        </form>
+        <hr>
         <embed src="Шитиков и др_География_животных (2014).pdf" width="1300" height="700" />
+        <h4>Разные теги лол</h4>
+        Перенос<br>строк
+        <p>Тег параграфа. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+            consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <!-- Тег для списков -->
+        <ol><!-- ordered list. Список с цифрами -->
+            
+            <li>Первый</li>
+            <li>Второй</li>
+            
+        </ol>
+        <ul><!-- unordered list. Список с точками -->
+            
+            <li>Первый</li>
+            <li>Второй</li>
+            
+        </ul>
+        <img id="firefox" src="chrome://branding/content/firefox-wordmark.svg" width="75%"><!-- Для картинок -->
+        <div><!-- Тег контейнера. Вписывают в него другие блоки, чтобы объединить их в одну группу -->
+            
+        </div>
+        <input placeholder="что-то"><!-- Создает поле для ввода.
+
+
+            Value - стандартное значение.
+            Placeholder - держатель места ("призрачный текс")
+        -->
+        <textarea><!-- Тоже поле для ввода. В отличии от input, он для большого кол-ва текста -->
+            Многа текста!
+        </textarea>
     </body>
 </html>
